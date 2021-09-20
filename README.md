@@ -27,8 +27,7 @@ using namespase std;
 
 int main()
 {
-
-    //uch xonali sonni teskarisini chiqarish
+  //uch xonali sonni teskarisini chiqarish
     
 int a,b,c,d,f;
     cin>>a;
@@ -41,7 +40,12 @@ int a,b,c,d,f;
     }
     '''
   ...C++ lesson 6
- 
+ #include <iostream>
+
+using namespace std;
+
+int main()
+    {
      //sonni qiymatini o'zgartirish
      int a,b,c,d,f;
      cout<<"kiriting: "; cin>>a;
@@ -53,4 +57,5 @@ int a,b,c,d,f;
      cout<<a<<endl;
      cout<<b;
      return 0
+    }
   ...
