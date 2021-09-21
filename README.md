@@ -59,7 +59,7 @@ int main()
      return 0
     }
   ...
-    '''C++ 
+    '''C++ Lesson 7
     #include <iostream>
 
 using namespace std;
