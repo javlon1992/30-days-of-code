@@ -1,5 +1,5 @@
 # 30-days-of-code
-''C++ Lesson 3.
+'''C++ Lesson 3.
 #include <iostream>
 
 using namespace std;
@@ -39,7 +39,7 @@ int a,b,c,d,f;
     return 0;
     }
     '''
-  ...C++ lesson 6
+  '''C++ lesson 6
  #include <iostream>
 
 using namespace std;
@@ -59,3 +59,26 @@ int main()
      return 0
     }
   ...
+    '''C++ 
+    #include <iostream>
+
+using namespace std;
+
+int main()
+    {
+    int n,i,j,k,l;      //sonlarni xar xilligini tekshirish
+    cout<<"uch xonali sonni kiriting: "; cin>>n;
+
+    i=n%10; //birlik
+    n/=10;
+
+    j=n%10; //o'nlik
+    n/=10;
+
+    l=n%10; //yuzlik
+    if (!(i==j||j==l||i==l)) cout<<"true";
+    else cout<<"false";
+    return 0;
+    }
+    '''
+    
