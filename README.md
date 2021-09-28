@@ -81,4 +81,11 @@ int main()
     return 0;
     }
     '''
-    
+    ...C++  Lesson 9      //karra jadval tuzish 
+    int m;  
+       cin>>m;
+     for (int i=1; i<=10; i++){
+
+        cout<<m<<" * "<<i<<" = "<<i*m<<endl;
+     }
+    ...
