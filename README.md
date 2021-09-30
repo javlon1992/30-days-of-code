@@ -89,3 +89,27 @@ int main()
         cout<<m<<" * "<<i<<" = "<<i*m<<endl;
      }
     ...
+    ...C++ Lesson 12
+                                            
+      //berilgan songa teng qadamlar bilan fibonachi sonnini aniqlash;
+       void fibonachi(int n){
+       int f1=1,f2=1,a=1;
+       while (n>a){
+        int f3=f1+f2;
+        f1=f2;
+        f2=f3;
+        cout<<f3<<",";
+        a++;
+       }
+       }
+       int main(){
+           int n; cin>>n;
+           fibonachi(n);
+       }                                      
+      ...                                      
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
